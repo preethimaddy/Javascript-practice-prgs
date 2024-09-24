@@ -8,3 +8,10 @@ function sumArray(arr) {
     return sum
 }
 console.log(sumArray(arr)) // 15
+
+// Using REDUCE method
+
+let numbers = [1,2,3,4,5];
+
+let sum1 = numbers.reduce((accumulator, currentValue)=> accumulator + currentValue, 0);
+console.log(sum1)
