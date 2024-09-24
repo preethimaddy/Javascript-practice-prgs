@@ -10,4 +10,4 @@ function FibanocciSeries(n) {
     }
     return input
 }
-console.log(FibanocciSeries(8))
+console.log(FibanocciSeries(3))
